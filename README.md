@@ -7,7 +7,7 @@ It uses a 2D plane-strain finite element model built with [OpenSeesPy](https://o
 > **Please read before using the numbers.**
 > The source is a **prescribed Ricker pulse**, not an explosive model. There is no charge, borehole, detonation or fracture-zone physics, and the amplitude is arbitrary, so **absolute PPV values are not calibrated** to any real blast. The model is **2D**, so wave attenuation differs from real 3D ground, and only in-plane motion exists. Use it to understand *trends* (how layering, distance and frequency interact), not to predict site vibration or check regulatory limits.
 
-![Model layout](results/01_model.png)
+![Model layout](ppv_sim/results/01_model.png)
 
 ## What it does
 
@@ -61,11 +61,11 @@ What the run shows:
 - Results are mirror-symmetric about the source, and horizontal PPV is essentially zero directly above it, as symmetry requires.
 
 <p align="center">
-  <img src="results/05_ppv_distance.png" width="46%" alt="PPV versus distance">
-  <img src="results/06_spectra.png" width="52%" alt="Fourier spectra">
+  <img src="ppv_sim/results/05_ppv_distance.png" width="46%" alt="PPV versus distance">
+  <img src="ppv_sim/results/06_spectra.png" width="52%" alt="Fourier spectra">
 </p>
 <p align="center">
-  <img src="results/09_snapshots.png" width="98%" alt="Wavefield snapshots">
+  <img src="ppv_sim/results/09_snapshots.png" width="98%" alt="Wavefield snapshots">
 </p>
 
 ## Project structure
